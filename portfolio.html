@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="portfolio.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>LILY SNEHA</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="portfolio.html" target="_blank">Home</a></li>
+                <li><a href="About.html" >About</a></li>
+                <li><a href="https://github.com/Lily-Sneha/Lily-Sneha" target="_blank">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/lily-lakra-7a0381225" target="_blank">LinkedIn </a></li>
+                <button class="option">
+                    <a href="https://drive.google.com/file/d/1hjVbnlDIGf39NM91mGT01Ri7HtE62ijZ/view?usp=drivesdk" class="download">Download Resume</a>
+                </button>
+            </ul>
+        </nav>
+
+
+        <div class="hamburger" onclick=" myfunction()">
+            <span class="menu"></span>
+            <span class="menu"></span>
+            <span class="menu"></span>
+        </div>
+
+        <div class="dropdown" id="drop" style="display: none;">
+            <ul>
+                <li><a active="active" href="portfolio.html" target="_blank">Home</a></li>
+                <li><a href="About.html" target="_blank">About</a></li>
+                <li><a href="https://github.com/Lily-Sneha/Lily-Sneha" target="_blank">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/lily-lakra-7a0381225" target="_blank">LinkedIn </a></li>
+                <li><button class="option">
+                    <a href="https://drive.google.com/file/d/1hjVbnlDIGf39NM91mGT01Ri7HtE62ijZ/view?usp=drivesdk"
+                        class="download">Download Resume</a>
+                </button></li>
+            </ul>
+        </div>
+
+    </header>
+
+    <div class="image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEVMpAgU37pMpMyfHwf5AApoFbfWOh8biDuQ&usqp=CAU"
+            width="300" height="350px">
+    </div>
+
+    <div>
+        <h1 class="welcome">Welcome! </h1>
+        <h1 class="name">I am Lily Sneha.</h1>
+        <p id="web"><b>Aspiring Front-End developer.</b></p>
+        <p><b>I want to work as a Front-End developer in <br> a company who works on HTML and CSS.</b></p>
+
+    </div>
+
+    
+    <footer>
+        <!-- <div class="icons">
+
+            <i class="fa-brands fa-facebook" id="icons"></i>
+            <i class="fa-brands fa-instagram" id="icons"></i>
+            <i class="fa-brands fa-linkedin" id="icons"></i>
+            
+        </div> -->
+        <h3><i>lakralily3@gmail.com <br> Mobile-9006518795</i></h3>
+    </footer>
+
+</body>
+
+<script>
+    function myfunction(dropdown) {
+
+        if (document.getElementById("drop").style.display == "none") {
+            document.getElementById("drop").style.display = "flex";
+        }
+        else {
+            document.getElementById("drop").style.display = "none";
+        }
+    }
+</script>
+
+</html>
